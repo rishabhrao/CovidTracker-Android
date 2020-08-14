@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020 Rishabh Rao.
+  ~ All Rights Reserved.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.summary.SummaryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorDivider"/>
+
+            <TextView
+                android:id="@+id/summary_countConfirmedTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountTitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/countConfirmedTitle"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountTitle"
+                android:textSize="@dimen/fontSizeCountTitle"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/summary_countConfirmed"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountNumber"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/checkNetwork"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountNumber"
+                android:textSize="@dimen/fontSizeCountNumber"
+                android:typeface="sans" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <TextView
+                android:id="@+id/summary_countActiveTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountTitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/countActiveTitle"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountTitle"
+                android:textSize="@dimen/fontSizeCountTitle"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/summary_countActive"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountNumber"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/checkNetwork"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountNumber"
+                android:textSize="@dimen/fontSizeCountNumber"
+                android:typeface="sans" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <TextView
+                android:id="@+id/summary_countRecoveredTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountTitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/countRecoveredTitle"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountTitle"
+                android:textSize="@dimen/fontSizeCountTitle"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/summary_countRecovered"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountNumber"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/checkNetwork"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountNumber"
+                android:textSize="@dimen/fontSizeCountNumber"
+                android:typeface="sans" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <TextView
+                android:id="@+id/summary_countDeathsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountTitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/countDeathsTitle"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountTitle"
+                android:textSize="@dimen/fontSizeCountTitle"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/summary_countDeaths"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountNumber"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/checkNetwork"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountNumber"
+                android:textSize="@dimen/fontSizeCountNumber"
+                android:typeface="sans" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/summary_countDeathRateTitle"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/heightCountTitle"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:fontFamily="@font/droid_sans"-->
+<!--                android:text="@string/countDeathRateTitle"-->
+<!--                android:textAlignment="textStart"-->
+<!--                android:textColor="@color/colorCountTitle"-->
+<!--                android:textSize="@dimen/fontSizeCountTitle"-->
+<!--                android:textStyle="bold"-->
+<!--                android:typeface="sans" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/summary_countDeathRate"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/heightCountNumber"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="05dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:fontFamily="@font/droid_sans"-->
+<!--                android:text="@string/checkNetwork"-->
+<!--                android:textAlignment="textStart"-->
+<!--                android:textColor="@color/colorCountNumber"-->
+<!--                android:textSize="@dimen/fontSizeCountNumber"-->
+<!--                android:typeface="sans" />-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="2dp"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:layout_marginRight="15dp"-->
+<!--                android:background="@color/colorDivider"/>-->
+
+            <TextView
+                android:id="@+id/summary_countLastUpdateTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountTitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/countLastUpdateTitle"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountTitle"
+                android:textSize="@dimen/fontSizeCountTitle"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/summary_countLastUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/heightCountNumber"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="05dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/checkNetwork"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorCountNumber"
+                android:textSize="@dimen/fontSizeCountNumber"
+                android:typeface="sans" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorDivider"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020 Rishabh Rao.
+  ~ All Rights Reserved.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.help.HelpFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link1"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link2"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link3"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link4"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link5"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link6"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link7"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link8"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <Button
+                android:id="@+id/btn_link9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:text="@string/link9"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:typeface="sans"
+                app:cornerRadius="20dp"
+                app:icon="@drawable/ic_link_black_24dp"
+                app:iconGravity="end"
+                app:iconSize="30dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorDivider"/>
+
+            <TextView
+                android:id="@+id/help_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/droid_sans"
+                android:lineSpacingExtra="3sp"
+                android:text="@string/copyright"
+                android:textAlignment="center"
+                android:textColor="@color/colorCountTitle"
+                android:textSize="@dimen/fontSizeCountTitle"
+                android:typeface="sans" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorDivider"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

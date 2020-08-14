@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020 Rishabh Rao.
+  ~ All Rights Reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_summary"
+        android:icon="@drawable/ic_summary_black_24dp"
+        android:title="@string/title_summary" />
+
+    <item
+        android:id="@+id/navigation_help"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="@string/title_help" />
+
+</menu>
