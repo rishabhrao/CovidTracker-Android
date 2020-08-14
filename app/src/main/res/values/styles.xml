@@ -1,0 +1,21 @@
+<!--
+  ~ Copyright © 2020 Rishabh Rao.
+  ~ All Rights Reserved.
+  -->
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="toolbarStyle">@style/my_Toolbar</item>
+    </style>
+    <style name="my_Toolbar" parent="@style/Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor">@color/colorPrimary</item>
+        <item name="titleTextStyle">@color/colorPrimary</item>
+    </style>
+
+    </resources>

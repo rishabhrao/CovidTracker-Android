@@ -1,0 +1,7 @@
+/*
+ * Copyright © 2020 Rishabh Rao.
+ * All Rights Reserved.
+ */
+
+include ':app'
+rootProject.name = "COVID-19 Tracker for India"

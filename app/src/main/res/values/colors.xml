@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020 Rishabh Rao.
+  ~ All Rights Reserved.
+  -->
+
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#9E5F00</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorCountTitle">#F9F9F9</color>
+    <color name="colorCountNumber">#999999</color>
+    <color name="colorDivider">#313439</color>
+</resources>

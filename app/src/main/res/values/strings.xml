@@ -1,0 +1,45 @@
+<!--
+  ~ Copyright © 2020 Rishabh Rao.
+  ~ All Rights Reserved.
+  -->
+
+<resources>
+    <string name="app_name">COVID-19 Tracker for India 🇮🇳</string>
+
+    <string name="title_summary">Summary</string>
+    <string name="title_help">Help</string>
+
+    <string name="link1">Central Helpline</string>
+    <string name="link1Url">tel:+911123978046</string>
+    <string name="link2">State-wise Helplines</string>
+    <string name="link2Url">https://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf</string>
+    <string name="link3">Aarogya Setu App</string>
+    <string name="link3Url">https://www.mygov.in/aarogya-setu-app</string>
+    <string name="link4">MyGov Live HelpDesk</string>
+    <string name="link4Url">https://wa.me/919013151515?text=Hi</string>
+    <string name="link5">MyGov Website</string>
+    <string name="link5Url">https://www.mygov.in/covid-19</string>
+    <string name="link6">MoHFW Website</string>
+    <string name="link6Url">https://www.mohfw.gov.in/</string>
+    <string name="link7">Email Me</string>
+    <string name="link7Url">mailto:admin@rishabhrao.tk</string>
+    <string name="link8">My Portfolio Website</string>
+    <string name="link8Url">https://rishabhrao.tk/</string>
+    <string name="link9">My Youtube Channel</string>
+    <string name="link9Url">https://youtube.com/rishabhrao1</string>
+
+    <string name="copyright">
+        Copyright © 2020\n
+        Rishabh Rao \n
+        All Rights Reserved
+    </string>
+
+    <string name="countConfirmedTitle">Confirmed Cases:</string>
+    <string name="countActiveTitle">Active Cases:</string>
+    <string name="countRecoveredTitle">Recovered:</string>
+    <string name="countDeathsTitle">Deaths:</string>
+    <string name="countDeathRateTitle">Death Rate:</string>
+    <string name="countLastUpdateTitle">Last Updated At:</string>
+
+    <string name="checkNetwork">Please Check your Internet Connection!</string>
+</resources>

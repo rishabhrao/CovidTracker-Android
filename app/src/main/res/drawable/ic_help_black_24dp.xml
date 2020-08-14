@@ -1,0 +1,29 @@
+<!--
+  ~ Copyright © 2020 Rishabh Rao.
+  ~ All Rights Reserved.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:width="24dp"
+    android:height="24dp">
+    <path
+        android:pathData="M5.5 8.5A5.506 5.506 0 0 0 0 14v3.5a0.5 0.5 0 0 0 0.5 0.5H2.31a0.25 0.25 0 0 1 0.249 0.229L3 23.542A0.5 0.5 0 0 0 3.5 24h4a0.5 0.5 0 0 0 0.5 -0.458l0.443 -5.313A0.25 0.25 0 0 1 8.69 18H10.5a0.5 0.5 0 0 0 0.5 -0.5V14A5.506 5.506 0 0 0 5.5 8.5Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M9 4A3.5 3.5 0 0 1 2 4A3.5 3.5 0 0 1 9 4Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M23.627 1.951a3.526 3.526 0 0 0 -5.646 -0.916l-0.305 0.305a0.252 0.252 0 0 1 -0.354 0l-0.3 -0.305a3.527 3.527 0 0 0 -5.647 0.916 3.519 3.519 0 0 0 0.654 4.063l5.113 5.334a0.5 0.5 0 0 0 0.722 0l5.106 -5.327A3.522 3.522 0 0 0 23.627 1.951Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M5.5 8.5A5.506 5.506 0 0 0 0 14v3.5a0.5 0.5 0 0 0 0.5 0.5H2.31a0.25 0.25 0 0 1 0.249 0.229L3 23.542A0.5 0.5 0 0 0 3.5 24h4a0.5 0.5 0 0 0 0.5 -0.458l0.443 -5.313A0.25 0.25 0 0 1 8.69 18H10.5a0.5 0.5 0 0 0 0.5 -0.5V14A5.506 5.506 0 0 0 5.5 8.5Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M9 4A3.5 3.5 0 0 1 2 4A3.5 3.5 0 0 1 9 4Z"
+        android:fillColor="#000000" />
+    <path
+        android:pathData="M23.627 1.951a3.526 3.526 0 0 0 -5.646 -0.916l-0.305 0.305a0.252 0.252 0 0 1 -0.354 0l-0.3 -0.305a3.527 3.527 0 0 0 -5.647 0.916 3.519 3.519 0 0 0 0.654 4.063l5.113 5.334a0.5 0.5 0 0 0 0.722 0l5.106 -5.327A3.522 3.522 0 0 0 23.627 1.951Z"
+        android:fillColor="#000000" />
+</vector>
